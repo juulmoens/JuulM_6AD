@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace JuulM_Lopen
 {
-    public partial class FrmStart : Form
+    public partial class FrmInschrijven : Form
     {
-        public FrmStart()
+        public FrmInschrijven()
         {
             InitializeComponent();
         }
 
-        private void btnAfsluiten_Click(object sender, EventArgs e)
+        private void btnAnnuleren_Click(object sender, EventArgs e)
         {
             Close();
         }

@@ -64,6 +64,7 @@ namespace JuulM_Lopen
             _betaald = ontvBetaald;
         
         }
+
     }
 
 }
