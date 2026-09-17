@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace JuulM_Lopen
 {
-    public partial class frmBewerken : Form
+    public partial class FrmBewerken : Form
     {
-        public frmBewerken()
+        public FrmBewerken()
         {
             InitializeComponent();
+        }
+
+        private void btnAnnuleren_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

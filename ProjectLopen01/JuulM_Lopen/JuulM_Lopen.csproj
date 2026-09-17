@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\FrmBewerken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmBewerken.Designer.cs">
+      <DependentUpon>FrmBewerken.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\FrmInschrijven.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     </Compile>
     <Compile Include="Buisiness\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\frmBewerken.resx">
+      <DependentUpon>FrmBewerken.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\FrmInschrijven.resx">
       <DependentUpon>FrmInschrijven.cs</DependentUpon>
     </EmbeddedResource>
